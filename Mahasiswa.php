@@ -11,14 +11,24 @@ class Mahasiswa
        echo " $this->nama adalah mahasiswa <br>";
    }
    
+   public function tampilkanAngkatan()
+   {
+       echo "NIM $this->nim merupakan angkatan 2019 <br>";
+   }
+
    public function tampilkanTeman()
    {
-       echo "si $this->nama dan ";
+       echo "$this->nama adalah mahasiswa <br> ";
    }
 
    public function tampilkanLainnya()
    {
-       echo "$this->nama juga merupakan mahasiswa <br>";
+       echo "$this->nama adalah mahasiswa <br>";
+   }
+
+   public function tampilkanUmur()
+   {
+       echo "dengan tanggal lahir $this->tanggal_lahir maka $this->nama berumur 20 tahun <br><br>";
    }
 }
 ?>
