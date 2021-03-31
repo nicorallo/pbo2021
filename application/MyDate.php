@@ -1,5 +1,7 @@
 <?php
 
+namespace application\backend;
+
 class MyDate  
 {
     private $day;
@@ -44,3 +46,13 @@ class MyDate
         $this->year = $year;
     }
 } 
+
+namespace application\frontend;
+
+class MyDate
+{
+    public function penanggalan()
+    {
+        return 'Ini tanggal';
+    }
+}

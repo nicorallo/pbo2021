@@ -1,36 +1,32 @@
 <?php
- 
-include('Mahasiswa.php');
+    require_once("Mahasiswa.php");
+    require_once('MahasiswaBaru.php');
 
-$nico = new Mahasiswa();
-$faul = new Mahasiswa();
-$tri = new Mahasiswa();
+    $nico = new Mahasiswa("H1101191014", "Nicolaus", "2002-11-13", "Pria");
+    $budi = new MahasiswaBaru("H1101201035", "Budi", "2004-10-21", "Laki-Laki", 9118334);
+    ?>
 
-
-$nico->nama = "Nico";
-$faul->nama = "Faul";
-$tri->nama = "Tri";
-
-$nico->nim = "H1101191013";
-$faul->nim = "H1101191045";
-$tri->nim = "H1101191016";
-
-$nico->tanggal_lahir = "03 Desember 2000";
-$faul->tanggal_lahir = "21 Januari 2021";
-$tri->tanggal_lahir = "16 Januari 2021";
-
-$nico->tampilkanNama();
-$nico->tampilkanAngkatan();
-$nico->tampilkanUmur();
-
-$faul->tampilkanTeman();
-$faul->tampilkanAngkatan();
-$faul->tampilkanUmur();
-
-$tri->tampilkanLainnya();
-$tri->tampilkanAngkatan();
-$tri->tampilkanUmur();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Test</title>
+</head>
+<body>
+    <?php
+    
+    $nico->tampilkanAngkatan();
+    echo "<br>";
+    $budi->tampilkanAngkatan();
+    echo "<br>";
+    echo "<br>";
+    $nico->tampilkanUmur();
+    echo "<br>";
+    $budi->tampilkanUmur();
 
 
-
- ?>
+    ?>
+</body>
+</html>

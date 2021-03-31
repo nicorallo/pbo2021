@@ -1,7 +1,7 @@
 <?php
     
-    require_once("User.php");
-    
+    namespace application;
+
     class Mahasiswa extends User{
         protected $nim;
         protected $nama;
@@ -17,7 +17,9 @@
 
                 public function tampilkanAngkatan(){
                     //$akt = substr($this->nim, 5, -4);
-                    echo "Merupakan angkatan tahun 20" . substr($this->nim , 5,-4)."<br>";
+
+                    $akt = substr($this->nim,5,-4);
+                    echo $this->nama. ' merupakan angkatan tahun '. $akt . "<br>";
                 }
                     public function tampilkanUmur(){
                         $tgl_lahir = date_create($this->tanggal_lahir);
