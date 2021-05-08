@@ -1,17 +1,20 @@
 <?php
-class Mobil  
-{
-    public $roda;
-    public $kursi;
 
-    public function nyalakan()
-    {
-        echo "mobil dengan roda $this->roda menyala <br>";
-    }
+namespace App;
 
-    public function mundur()
+    class Mobil  
     {
-        $this->nyalakan();
-        echo "mobil berjalan mundur <br>";
+        public $roda;
+        public $kursi;
+
+        public function nyalakan()
+        {
+            echo "mobil dengan roda $this->roda menyala <br>";
+        }
+
+        public function mundur()
+        {
+            $this->nyalakan();
+            echo "mobil berjalan mundur <br>";
+        }
     }
-}

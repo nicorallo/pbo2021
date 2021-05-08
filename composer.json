@@ -1,0 +1,11 @@
+{
+    "name": "user/pbo2021",
+    "description": "Praktikum PBO",
+    "authors": [
+        {
+            "name": "nicorallo",
+            "email": "descarallo@gmail.com"
+        }
+    ],
+    "require": {}
+}

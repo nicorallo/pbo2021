@@ -1,6 +1,6 @@
 <?php
 
-namespace application\backend;
+namespace App\frontend;
 
 class MyDate  
 {
@@ -47,12 +47,3 @@ class MyDate
     }
 } 
 
-namespace application\frontend;
-
-class MyDate
-{
-    public function penanggalan()
-    {
-        return 'Ini tanggal';
-    }
-}
