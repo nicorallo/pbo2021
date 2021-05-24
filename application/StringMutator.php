@@ -13,7 +13,7 @@ class StringMutator
 
     public function bold()
     {
-        $this->word = '<b>'.$this->word.'</b>';
+        $this->word = '<b>' . $this->word . '</b>';
         return $this;
     }
 

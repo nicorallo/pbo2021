@@ -1,9 +1,9 @@
 <?php
- require_once("Mahasiswa.php");
- require_once('MahasiswaBaru.php');
+// require_once("Mahasiswa.php");
+ //require_once('MahasiswaBaru.php');
 
- $nico = new Mahasiswa("H1101191014", "Nicolaus", "2002-11-13", "Pria");
- $budi = new MahasiswaBaru("H1101201035", "Budi", "2004-10-21", "Laki-Laki", 9118334);
+ //$nico = new Mahasiswa("H1101191014", "Nicolaus", "2002-11-13", "Pria");
+ //$budi = new MahasiswaBaru("H1101201035", "Budi", "2004-10-21", "Laki-Laki", 9118334);
  ?>
 
 <!DOCTYPE html>
