@@ -17,14 +17,14 @@
 <body>
  <?php
 
- $nico->tampilkanAngkatan();
- echo "<br>";
- $budi->tampilkanAngkatan();
- echo "<br>";
- echo "<br>";
- $nico->tampilkanUmur();
- echo "<br>";
- $budi->tampilkanUmur();
+ //$nico->tampilkanAngkatan();
+ //echo "<br>";
+ //$budi->tampilkanAngkatan();
+ //echo "<br>";
+ //echo "<br>";
+ //$nico->tampilkanUmur();
+ //echo "<br>";
+ //$budi->tampilkanUmur();
 
 
  ?>
